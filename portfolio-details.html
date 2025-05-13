@@ -15,7 +15,8 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,44 +45,31 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Laura</h1>
+        <h1 class="sitename">Antonia</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#hero" class="nav-link">Home</a></li>
+          <li><a href="index.html#about" class="nav-link">Motivation</a></li>
+          <li><a href="index.html#resume" class="nav-link">Resume</a></li>
+          <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+      <style>
+        .navmenu .nav-link:hover {
+          color: #4133ff; /* Change this to your desired hover color */
+        }
+      </style>
 
-      <div class="header-social-links">
+      <!-- <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
+      </div> -->
 
     </div>
   </header>
@@ -89,10 +77,11 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background">
+    <div class="page-title light-background">
       <div class="container position-relative">
-        <h1>Portfolio Details</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <h1>THEN AND NUDE</h1>
+        <p> 
+        </p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -109,7 +98,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
+          <div class="col-lg-6">
             <div class="portfolio-details-slider swiper init-swiper">
 
               <script type="application/json" class="swiper-config">
@@ -130,29 +119,29 @@
 
               <div class="swiper-wrapper align-items-center">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
+                <div class="swiper-slide" style="display: flex; justify-content: center;">
+                  <img src="assets/img/portfolio/Artwork_1.jpeg" alt="" style="max-width: 70%;">
+                </div>                
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
+                <div class="swiper-slide" style="display: flex; justify-content: center;">
+                  <img src="assets/img/Then and Nude/Then_and_nude_2.jpg" alt="" style="max-width: 70%;">
+                </div>   
+    
+                <div class="swiper-slide" style="display: flex; justify-content: center;">
+                  <img src="assets/img/Then and Nude/two_ladies.jpg" alt="" style="max-width: 70%;">
+                </div>   
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
+                <div class="swiper-slide" style="display: flex; justify-content: center;">
+                  <img src="assets/img/Then and Nude/old_selfie.jpg" alt="" style="max-width: 70%;">
+                </div>   
 
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6">
+            <!-- <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project information</h3>
               <ul>
                 <li><strong>Category</strong>: Web design</li>
@@ -160,13 +149,28 @@
                 <li><strong>Project date</strong>: 01 March, 2020</li>
                 <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
               </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
+            </div> -->
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300" style="font-size: 14px !important;">
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                This series of aquarelle nudes draws inspiration from both historical paintings and contemporary mirror selfies. It explores the contrast and parallels between today’s self-representation of the female body and the perspectives of the past.
+              </p>
+              <p>
+                In art history, the naked female body has often been depicted by male artists—elevated to a subject of beauty, idealization, and 'high art,' but also stripped of agency, reduced to objects of desire under the male gaze. These women were rarely given a voice of their own; they were muses, symbols, or fantasies—seen, but not seeing. Their nudity was aestheticized, made acceptable, and their depiction became central to Western ideas of beauty and femininity.
+              </p>
+              <p>
+                In contrast, women today who share images of their own naked bodies are often dismissed or condemned. They are labeled as vain, desperate, or 'slutty.' Their self-expression is seen as attention-seeking or morally questionable behavior.
+               By placing these two forms of representation side by side, the work invites a re-evaluation of how we view, value, and judge the nude female body—depending on who creates it and in what context.
+              </p>
+              <p>
+                The paintings seek to put these representations on equal footing: the woman painted by a Renaissance master and the woman photographing herself in a bathroom mirror are both reflections of their time.
+                The legacy of the past is far from gone. The ways women have been portrayed for centuries—idealized, perfected, posed for male consumption—still echo in contemporary self-imagery. In our present world, where self-representation is mediated by social media, filters, and inherited beauty standards, the line between agency and performance remains complex.
+              </p>
+              <p>
+                This series aims to question how we see the female body, how we see women, and how women have learned to see themselves.
               </p>
             </div>
+            
+            
           </div>
 
         </div>
@@ -179,18 +183,12 @@
 
   <footer id="footer" class="footer position-relative dark-background">
     <div class="container">
-      <h3 class="sitename">Laura Thomson<br></h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
+      <h3 class="sitename"><br></h3>
+      <p></p>
+
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Laura</strong> <span>All Rights Reserved</span>
+          <span></span> <strong class="px-1 sitename"></strong> <span></span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
