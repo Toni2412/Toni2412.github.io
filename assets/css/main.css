@@ -823,7 +823,7 @@ section,
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--default-color);
+  /* border-left: 2px solid var(--default-color); */
   position: relative;
 }
 
@@ -856,7 +856,7 @@ section,
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+/* .resume .resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -866,7 +866,7 @@ section,
   top: 0;
   background: var(--background-color);
   border: 2px solid var(--default-color);
-}
+} */
 
 /*--------------------------------------------------------------
 # Services Section
