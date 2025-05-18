@@ -720,7 +720,10 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F57411;
+  background-color: #f57411;
+  /* background-image: url("/assets/img/Foddos/f11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .hero .container {
